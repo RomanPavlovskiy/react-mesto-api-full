@@ -1,0 +1,14 @@
+.profile__overlay {
+  position: relative;
+  cursor: pointer;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .profile__overlay {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
